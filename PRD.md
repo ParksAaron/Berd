@@ -55,3 +55,4 @@
 > Go through process to get app on the appstore
 
 ### Wireframes 
+<img src="wireframe.pdf">
