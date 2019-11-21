@@ -1,0 +1,6 @@
+framework module Pods_Berd_BerdUITests {
+  umbrella header "Pods-Berd-BerdUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

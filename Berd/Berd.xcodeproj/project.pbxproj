@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750C4F43073F7617F50E221C /* Pods_Berd_BerdUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26E94D845A34DBCC9948157 /* Pods_Berd_BerdUITests.framework */; };
+		9621BFFE23848E24001CA4EC /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621BFFD23848E24001CA4EC /* AddPostViewController.swift */; };
+		9621C0002384ACDD001CA4EC /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621BFFF2384ACDD001CA4EC /* HomeTableViewController.swift */; };
+		9621C0022384B25D001CA4EC /* AddReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621C0012384B25D001CA4EC /* AddReviewViewController.swift */; };
+		9653CECC238342C600CD4302 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653CECB238342C600CD4302 /* SignUpViewController.swift */; };
+		9653CECE238342D000CD4302 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653CECD238342D000CD4302 /* LoginViewController.swift */; };
+		96921FDB237CF8E100F7CE16 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96921FDA237CF8E000F7CE16 /* GoogleService-Info.plist */; };
 		96D9C1702361384C00692CA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9C16F2361384C00692CA5 /* AppDelegate.swift */; };
 		96D9C1722361384C00692CA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9C1712361384C00692CA5 /* ViewController.swift */; };
 		96D9C1752361384C00692CA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D9C1732361384C00692CA5 /* Main.storyboard */; };
@@ -14,6 +21,8 @@
 		96D9C17A2361384D00692CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D9C1782361384D00692CA5 /* LaunchScreen.storyboard */; };
 		96D9C1852361384E00692CA5 /* BerdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9C1842361384E00692CA5 /* BerdTests.swift */; };
 		96D9C1902361384E00692CA5 /* BerdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9C18F2361384E00692CA5 /* BerdUITests.swift */; };
+		BC41505BAEB64238214C4C1A /* Pods_BerdTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EA88A6EF23303A51ABCA8B /* Pods_BerdTests.framework */; };
+		D42F7B3BD1F42BF8BD3AD3B1 /* Pods_Berd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB535E0306C372394496E2A /* Pods_Berd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		269D5E35B8ECF0B6024F6666 /* Pods-Berd-BerdUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berd-BerdUITests.release.xcconfig"; path = "Target Support Files/Pods-Berd-BerdUITests/Pods-Berd-BerdUITests.release.xcconfig"; sourceTree = "<group>"; };
+		27F0075627B4397B211D0127 /* Pods-Berd-BerdUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berd-BerdUITests.debug.xcconfig"; path = "Target Support Files/Pods-Berd-BerdUITests/Pods-Berd-BerdUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CCE4C23DFE148C150C4484F /* Pods-Berd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berd.release.xcconfig"; path = "Target Support Files/Pods-Berd/Pods-Berd.release.xcconfig"; sourceTree = "<group>"; };
+		9621BFFD23848E24001CA4EC /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
+		9621BFFF2384ACDD001CA4EC /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		9621C0012384B25D001CA4EC /* AddReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewViewController.swift; sourceTree = "<group>"; };
+		9653CECB238342C600CD4302 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9653CECD238342D000CD4302 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		96921FDA237CF8E000F7CE16 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		96D9C16C2361384C00692CA5 /* Berd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Berd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D9C16F2361384C00692CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96D9C1712361384C00692CA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +65,12 @@
 		96D9C18B2361384E00692CA5 /* BerdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BerdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D9C18F2361384E00692CA5 /* BerdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerdUITests.swift; sourceTree = "<group>"; };
 		96D9C1912361384E00692CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97333BDA0C104D8475DA3BE1 /* Pods-Berd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berd.debug.xcconfig"; path = "Target Support Files/Pods-Berd/Pods-Berd.debug.xcconfig"; sourceTree = "<group>"; };
+		97EA88A6EF23303A51ABCA8B /* Pods_BerdTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BerdTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A781E4C68DAD0DE6F04C3453 /* Pods-BerdTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BerdTests.debug.xcconfig"; path = "Target Support Files/Pods-BerdTests/Pods-BerdTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7C0C9CEEB45FF0D582DECF0 /* Pods-BerdTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BerdTests.release.xcconfig"; path = "Target Support Files/Pods-BerdTests/Pods-BerdTests.release.xcconfig"; sourceTree = "<group>"; };
+		F26E94D845A34DBCC9948157 /* Pods_Berd_BerdUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Berd_BerdUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB535E0306C372394496E2A /* Pods_Berd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Berd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42F7B3BD1F42BF8BD3AD3B1 /* Pods_Berd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC41505BAEB64238214C4C1A /* Pods_BerdTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +94,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				750C4F43073F7617F50E221C /* Pods_Berd_BerdUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A25034B4D8D3DF68E664265 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFB535E0306C372394496E2A /* Pods_Berd.framework */,
+				F26E94D845A34DBCC9948157 /* Pods_Berd_BerdUITests.framework */,
+				97EA88A6EF23303A51ABCA8B /* Pods_BerdTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57159CB8515BA6084842A54D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97333BDA0C104D8475DA3BE1 /* Pods-Berd.debug.xcconfig */,
+				3CCE4C23DFE148C150C4484F /* Pods-Berd.release.xcconfig */,
+				27F0075627B4397B211D0127 /* Pods-Berd-BerdUITests.debug.xcconfig */,
+				269D5E35B8ECF0B6024F6666 /* Pods-Berd-BerdUITests.release.xcconfig */,
+				A781E4C68DAD0DE6F04C3453 /* Pods-BerdTests.debug.xcconfig */,
+				B7C0C9CEEB45FF0D582DECF0 /* Pods-BerdTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		96D9C1632361384C00692CA5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +131,8 @@
 				96D9C1832361384E00692CA5 /* BerdTests */,
 				96D9C18E2361384E00692CA5 /* BerdUITests */,
 				96D9C16D2361384C00692CA5 /* Products */,
+				57159CB8515BA6084842A54D /* Pods */,
+				3A25034B4D8D3DF68E664265 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +149,18 @@
 		96D9C16E2361384C00692CA5 /* Berd */ = {
 			isa = PBXGroup;
 			children = (
+				96921FDA237CF8E000F7CE16 /* GoogleService-Info.plist */,
 				96D9C16F2361384C00692CA5 /* AppDelegate.swift */,
 				96D9C1712361384C00692CA5 /* ViewController.swift */,
 				96D9C1732361384C00692CA5 /* Main.storyboard */,
+				9621BFFD23848E24001CA4EC /* AddPostViewController.swift */,
 				96D9C1762361384D00692CA5 /* Assets.xcassets */,
 				96D9C1782361384D00692CA5 /* LaunchScreen.storyboard */,
 				96D9C17B2361384D00692CA5 /* Info.plist */,
+				9653CECB238342C600CD4302 /* SignUpViewController.swift */,
+				9653CECD238342D000CD4302 /* LoginViewController.swift */,
+				9621BFFF2384ACDD001CA4EC /* HomeTableViewController.swift */,
+				9621C0012384B25D001CA4EC /* AddReviewViewController.swift */,
 			);
 			path = Berd;
 			sourceTree = "<group>";
@@ -132,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96D9C1942361384E00692CA5 /* Build configuration list for PBXNativeTarget "Berd" */;
 			buildPhases = (
+				52A2C8852C66A38A496D2414 /* [CP] Check Pods Manifest.lock */,
 				96D9C1682361384C00692CA5 /* Sources */,
 				96D9C1692361384C00692CA5 /* Frameworks */,
 				96D9C16A2361384C00692CA5 /* Resources */,
+				7871E15733446CC490D69B37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96D9C1972361384E00692CA5 /* Build configuration list for PBXNativeTarget "BerdTests" */;
 			buildPhases = (
+				903F911CCDC37D45BB66ABD6 /* [CP] Check Pods Manifest.lock */,
 				96D9C17C2361384E00692CA5 /* Sources */,
 				96D9C17D2361384E00692CA5 /* Frameworks */,
 				96D9C17E2361384E00692CA5 /* Resources */,
@@ -167,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96D9C19A2361384E00692CA5 /* Build configuration list for PBXNativeTarget "BerdUITests" */;
 			buildPhases = (
+				242180CE8EDDA9DC923DA08B /* [CP] Check Pods Manifest.lock */,
 				96D9C1872361384E00692CA5 /* Sources */,
 				96D9C1882361384E00692CA5 /* Frameworks */,
 				96D9C1892361384E00692CA5 /* Resources */,
+				DAA012A716084540817B0AA9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96D9C17A2361384D00692CA5 /* LaunchScreen.storyboard in Resources */,
+				96921FDB237CF8E100F7CE16 /* GoogleService-Info.plist in Resources */,
 				96D9C1772361384D00692CA5 /* Assets.xcassets in Resources */,
 				96D9C1752361384C00692CA5 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +315,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		242180CE8EDDA9DC923DA08B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Berd-BerdUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52A2C8852C66A38A496D2414 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Berd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7871E15733446CC490D69B37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Berd/Pods-Berd-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Berd/Pods-Berd-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Berd/Pods-Berd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		903F911CCDC37D45BB66ABD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BerdTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA012A716084540817B0AA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Berd-BerdUITests/Pods-Berd-BerdUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Berd-BerdUITests/Pods-Berd-BerdUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Berd-BerdUITests/Pods-Berd-BerdUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96D9C1682361384C00692CA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9621C0002384ACDD001CA4EC /* HomeTableViewController.swift in Sources */,
+				9653CECE238342D000CD4302 /* LoginViewController.swift in Sources */,
+				9653CECC238342C600CD4302 /* SignUpViewController.swift in Sources */,
 				96D9C1722361384C00692CA5 /* ViewController.swift in Sources */,
+				9621BFFE23848E24001CA4EC /* AddPostViewController.swift in Sources */,
 				96D9C1702361384C00692CA5 /* AppDelegate.swift in Sources */,
+				9621C0022384B25D001CA4EC /* AddReviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,10 +602,13 @@
 		};
 		96D9C1952361384E00692CA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97333BDA0C104D8475DA3BE1 /* Pods-Berd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KRB97K7JH;
 				INFOPLIST_FILE = Berd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +622,13 @@
 		};
 		96D9C1962361384E00692CA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCE4C23DFE148C150C4484F /* Pods-Berd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KRB97K7JH;
 				INFOPLIST_FILE = Berd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +642,7 @@
 		};
 		96D9C1982361384E00692CA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A781E4C68DAD0DE6F04C3453 /* Pods-BerdTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +663,7 @@
 		};
 		96D9C1992361384E00692CA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C0C9CEEB45FF0D582DECF0 /* Pods-BerdTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +684,7 @@
 		};
 		96D9C19B2361384E00692CA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F0075627B4397B211D0127 /* Pods-Berd-BerdUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +704,7 @@
 		};
 		96D9C19C2361384E00692CA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 269D5E35B8ECF0B6024F6666 /* Pods-Berd-BerdUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
