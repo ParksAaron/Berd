@@ -6,6 +6,7 @@ target 'Berd' do
   use_frameworks!
 
   # Pods for Berd
+  pod 'AlamofireImage'
   pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'

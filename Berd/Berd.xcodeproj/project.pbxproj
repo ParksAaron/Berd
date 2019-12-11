@@ -8,16 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		750C4F43073F7617F50E221C /* Pods_Berd_BerdUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26E94D845A34DBCC9948157 /* Pods_Berd_BerdUITests.framework */; };
+		9605B42F238B13430047CBAD /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605B42E238B13430047CBAD /* SearchTableViewController.swift */; };
+		9612E42D239ED4150043487E /* UserDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9612E42C239ED4150043487E /* UserDetailsCollectionViewCell.swift */; };
+		9612E42F239EEA060043487E /* UserDetailsCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9612E42E239EEA060043487E /* UserDetailsCollectionReusableView.swift */; };
+		96172B0D23A0168300817F2C /* BrewDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96172B0C23A0168300817F2C /* BrewDetailsViewController.swift */; };
+		96172B0F23A0187100817F2C /* BrewDetailsCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96172B0E23A0187100817F2C /* BrewDetailsCollectionReusableView.swift */; };
+		96179E0E23A1125B00C40224 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96179E0D23A1125B00C40224 /* CommentViewController.swift */; };
 		9621BFFE23848E24001CA4EC /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621BFFD23848E24001CA4EC /* AddPostViewController.swift */; };
 		9621C0002384ACDD001CA4EC /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621BFFF2384ACDD001CA4EC /* HomeTableViewController.swift */; };
 		9621C0022384B25D001CA4EC /* AddReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9621C0012384B25D001CA4EC /* AddReviewViewController.swift */; };
 		9653CECC238342C600CD4302 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653CECB238342C600CD4302 /* SignUpViewController.swift */; };
 		9653CECE238342D000CD4302 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653CECD238342D000CD4302 /* LoginViewController.swift */; };
+		966936C323A1A9DA0005CB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966936C223A1A9DA0005CB2C /* Assets.xcassets */; };
 		96921FDB237CF8E100F7CE16 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96921FDA237CF8E000F7CE16 /* GoogleService-Info.plist */; };
+		9692A42C238B3F7F00906351 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9692A42B238B3F7F00906351 /* UserDetailsViewController.swift */; };
+		96B19BE4238B4C4F00CF0B4A /* BeerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B19BE3238B4C4F00CF0B4A /* BeerDetailsViewController.swift */; };
+		96B19BE6238B4C5C00CF0B4A /* BreweryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B19BE5238B4C5C00CF0B4A /* BreweryDetailsViewController.swift */; };
+		96B1EB5D2396060200AD50C5 /* feedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B1EB5C2396060200AD50C5 /* feedTableViewCell.swift */; };
+		96C2376823A0C1190005C7DC /* NotificationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C2376723A0C1190005C7DC /* NotificationsTableViewController.swift */; };
+		96C2376A23A0C1420005C7DC /* NotificationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C2376923A0C1420005C7DC /* NotificationsTableViewCell.swift */; };
+		96C2376C23A0DAEE0005C7DC /* ReviewDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C2376B23A0DAEE0005C7DC /* ReviewDetailsViewController.swift */; };
+		96C2376E23A0EA350005C7DC /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C2376D23A0EA350005C7DC /* CommentTableViewCell.swift */; };
 		96D9C1702361384C00692CA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9C16F2361384C00692CA5 /* AppDelegate.swift */; };
 		96D9C1722361384C00692CA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9C1712361384C00692CA5 /* ViewController.swift */; };
 		96D9C1752361384C00692CA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D9C1732361384C00692CA5 /* Main.storyboard */; };
-		96D9C1772361384D00692CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D9C1762361384D00692CA5 /* Assets.xcassets */; };
 		96D9C17A2361384D00692CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D9C1782361384D00692CA5 /* LaunchScreen.storyboard */; };
 		96D9C1852361384E00692CA5 /* BerdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9C1842361384E00692CA5 /* BerdTests.swift */; };
 		96D9C1902361384E00692CA5 /* BerdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9C18F2361384E00692CA5 /* BerdUITests.swift */; };
@@ -46,17 +60,31 @@
 		269D5E35B8ECF0B6024F6666 /* Pods-Berd-BerdUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berd-BerdUITests.release.xcconfig"; path = "Target Support Files/Pods-Berd-BerdUITests/Pods-Berd-BerdUITests.release.xcconfig"; sourceTree = "<group>"; };
 		27F0075627B4397B211D0127 /* Pods-Berd-BerdUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berd-BerdUITests.debug.xcconfig"; path = "Target Support Files/Pods-Berd-BerdUITests/Pods-Berd-BerdUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3CCE4C23DFE148C150C4484F /* Pods-Berd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Berd.release.xcconfig"; path = "Target Support Files/Pods-Berd/Pods-Berd.release.xcconfig"; sourceTree = "<group>"; };
+		9605B42E238B13430047CBAD /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		9612E42C239ED4150043487E /* UserDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		9612E42E239EEA060043487E /* UserDetailsCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsCollectionReusableView.swift; sourceTree = "<group>"; };
+		96172B0C23A0168300817F2C /* BrewDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewDetailsViewController.swift; sourceTree = "<group>"; };
+		96172B0E23A0187100817F2C /* BrewDetailsCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewDetailsCollectionReusableView.swift; sourceTree = "<group>"; };
+		96179E0D23A1125B00C40224 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
 		9621BFFD23848E24001CA4EC /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
 		9621BFFF2384ACDD001CA4EC /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		9621C0012384B25D001CA4EC /* AddReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewViewController.swift; sourceTree = "<group>"; };
 		9653CECB238342C600CD4302 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		9653CECD238342D000CD4302 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		966936C223A1A9DA0005CB2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96921FDA237CF8E000F7CE16 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9692A42B238B3F7F00906351 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		96B19BE3238B4C4F00CF0B4A /* BeerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailsViewController.swift; sourceTree = "<group>"; };
+		96B19BE5238B4C5C00CF0B4A /* BreweryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryDetailsViewController.swift; sourceTree = "<group>"; };
+		96B1EB5C2396060200AD50C5 /* feedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedTableViewCell.swift; sourceTree = "<group>"; };
+		96C2376723A0C1190005C7DC /* NotificationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewController.swift; sourceTree = "<group>"; };
+		96C2376923A0C1420005C7DC /* NotificationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewCell.swift; sourceTree = "<group>"; };
+		96C2376B23A0DAEE0005C7DC /* ReviewDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDetailsViewController.swift; sourceTree = "<group>"; };
+		96C2376D23A0EA350005C7DC /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
 		96D9C16C2361384C00692CA5 /* Berd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Berd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D9C16F2361384C00692CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96D9C1712361384C00692CA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96D9C1742361384C00692CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		96D9C1762361384D00692CA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96D9C1792361384D00692CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96D9C17B2361384D00692CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96D9C1802361384E00692CA5 /* BerdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BerdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,14 +181,28 @@
 				96D9C16F2361384C00692CA5 /* AppDelegate.swift */,
 				96D9C1712361384C00692CA5 /* ViewController.swift */,
 				96D9C1732361384C00692CA5 /* Main.storyboard */,
+				96179E0D23A1125B00C40224 /* CommentViewController.swift */,
+				96C2376B23A0DAEE0005C7DC /* ReviewDetailsViewController.swift */,
+				96C2376D23A0EA350005C7DC /* CommentTableViewCell.swift */,
+				96C2376923A0C1420005C7DC /* NotificationsTableViewCell.swift */,
+				96C2376723A0C1190005C7DC /* NotificationsTableViewController.swift */,
+				96172B0C23A0168300817F2C /* BrewDetailsViewController.swift */,
+				96172B0E23A0187100817F2C /* BrewDetailsCollectionReusableView.swift */,
+				9612E42C239ED4150043487E /* UserDetailsCollectionViewCell.swift */,
+				96B1EB5C2396060200AD50C5 /* feedTableViewCell.swift */,
+				96B19BE3238B4C4F00CF0B4A /* BeerDetailsViewController.swift */,
+				96B19BE5238B4C5C00CF0B4A /* BreweryDetailsViewController.swift */,
+				9692A42B238B3F7F00906351 /* UserDetailsViewController.swift */,
+				9612E42E239EEA060043487E /* UserDetailsCollectionReusableView.swift */,
+				9605B42E238B13430047CBAD /* SearchTableViewController.swift */,
 				9621BFFD23848E24001CA4EC /* AddPostViewController.swift */,
-				96D9C1762361384D00692CA5 /* Assets.xcassets */,
 				96D9C1782361384D00692CA5 /* LaunchScreen.storyboard */,
 				96D9C17B2361384D00692CA5 /* Info.plist */,
 				9653CECB238342C600CD4302 /* SignUpViewController.swift */,
 				9653CECD238342D000CD4302 /* LoginViewController.swift */,
 				9621BFFF2384ACDD001CA4EC /* HomeTableViewController.swift */,
 				9621C0012384B25D001CA4EC /* AddReviewViewController.swift */,
+				966936C223A1A9DA0005CB2C /* Assets.xcassets */,
 			);
 			path = Berd;
 			sourceTree = "<group>";
@@ -294,7 +336,7 @@
 			files = (
 				96D9C17A2361384D00692CA5 /* LaunchScreen.storyboard in Resources */,
 				96921FDB237CF8E100F7CE16 /* GoogleService-Info.plist in Resources */,
-				96D9C1772361384D00692CA5 /* Assets.xcassets in Resources */,
+				966936C323A1A9DA0005CB2C /* Assets.xcassets in Resources */,
 				96D9C1752361384C00692CA5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,12 +466,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				9621C0002384ACDD001CA4EC /* HomeTableViewController.swift in Sources */,
+				96B19BE4238B4C4F00CF0B4A /* BeerDetailsViewController.swift in Sources */,
+				96172B0F23A0187100817F2C /* BrewDetailsCollectionReusableView.swift in Sources */,
 				9653CECE238342D000CD4302 /* LoginViewController.swift in Sources */,
 				9653CECC238342C600CD4302 /* SignUpViewController.swift in Sources */,
 				96D9C1722361384C00692CA5 /* ViewController.swift in Sources */,
+				96C2376A23A0C1420005C7DC /* NotificationsTableViewCell.swift in Sources */,
+				96C2376E23A0EA350005C7DC /* CommentTableViewCell.swift in Sources */,
 				9621BFFE23848E24001CA4EC /* AddPostViewController.swift in Sources */,
 				96D9C1702361384C00692CA5 /* AppDelegate.swift in Sources */,
+				9612E42F239EEA060043487E /* UserDetailsCollectionReusableView.swift in Sources */,
+				96B19BE6238B4C5C00CF0B4A /* BreweryDetailsViewController.swift in Sources */,
 				9621C0022384B25D001CA4EC /* AddReviewViewController.swift in Sources */,
+				96C2376823A0C1190005C7DC /* NotificationsTableViewController.swift in Sources */,
+				96179E0E23A1125B00C40224 /* CommentViewController.swift in Sources */,
+				96B1EB5D2396060200AD50C5 /* feedTableViewCell.swift in Sources */,
+				96172B0D23A0168300817F2C /* BrewDetailsViewController.swift in Sources */,
+				9612E42D239ED4150043487E /* UserDetailsCollectionViewCell.swift in Sources */,
+				9605B42F238B13430047CBAD /* SearchTableViewController.swift in Sources */,
+				9692A42C238B3F7F00906351 /* UserDetailsViewController.swift in Sources */,
+				96C2376C23A0DAEE0005C7DC /* ReviewDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

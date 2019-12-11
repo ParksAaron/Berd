@@ -40,9 +40,8 @@ class LoginViewController: UIViewController {
                 self.errorLabel.alpha = 1
             }
             else{
-                let homeViewController = self.storyboard?.instantiateViewController(withIdentifier: "HomeVC") as? HomeTableViewController
-                let navigationController = UINavigationController(rootViewController: homeViewController!)
-                self.view.window?.rootViewController = navigationController
+                let tabBarController = self.storyboard?.instantiateViewController(withIdentifier: "HomeTabBar") as! UITabBarController
+                self.view.window?.rootViewController = tabBarController
                 self.view.window?.makeKeyAndVisible()
             }
         }

@@ -67,7 +67,7 @@ class SignUpViewController: UIViewController {
                 else{
                     let db = Firestore.firestore()
                     let reviewArray = [String]()
-                    db.collection("Users").document(result!.user.uid).setData(["FirstName": firstName, "LastName": lastName, "Username": username, "Reviews":  reviewArray, "Friends": reviewArray, "PictureURL": "", "ID": result!.user.uid]) { (error) in
+                    db.collection("Users").document(result!.user.uid).setData(["FirstName": firstName, "LastName": lastName, "Name": username, "Reviews":  reviewArray, "Friends": reviewArray, "PictureURL": "", "ID": result!.user.uid]) { (error) in
                         if error != nil {
                             self.showError(message: "Error saving user data.")
                         }
@@ -84,10 +84,9 @@ class SignUpViewController: UIViewController {
     }
     
     func transitionToHome(){
-        let homeViewController = storyboard?.instantiateViewController(withIdentifier: "HomeVC") as? HomeTableViewController
-        let navigationController = UINavigationController(rootViewController: homeViewController!)
-        view.window?.rootViewController = navigationController
-        view.window?.makeKeyAndVisible()
+        let tabBarController = self.storyboard?.instantiateViewController(withIdentifier: "HomeTabBar") as! UITabBarController
+        self.view.window?.rootViewController = tabBarController
+        self.view.window?.makeKeyAndVisible()
     }
     
 }

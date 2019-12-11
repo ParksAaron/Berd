@@ -13,11 +13,12 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var signupButton: UIButton!
     @IBOutlet weak var loginButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
     }
-    
     override func viewDidAppear(_ animated: Bool) {
         if Auth.auth().currentUser != nil{
             self.transitionToHome()
@@ -25,12 +26,9 @@ class ViewController: UIViewController {
     }
     
     func transitionToHome(){
-        let homeViewController = storyboard?.instantiateViewController(withIdentifier: "HomeVC") as? HomeTableViewController
-        let navigationController = UINavigationController(rootViewController: homeViewController!)
-        view.window?.rootViewController = navigationController
-        view.window?.makeKeyAndVisible()
+        let tabBarController = self.storyboard?.instantiateViewController(withIdentifier: "HomeTabBar") as! UITabBarController
+        self.view.window?.rootViewController = tabBarController
+        self.view.window?.makeKeyAndVisible()
     }
-
-
 }
 
